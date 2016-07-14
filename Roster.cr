@@ -27,10 +27,10 @@ class Roster
   end
 end
 
-# roster = Roster.new
-# roster.add_attendee("c")
-# puts roster.attendees
-# roster.add_attendee(name: "joe") do |name|
-#   name.upcase
-# end
-# puts roster.attendees
+roster = Roster.new
+roster.add_attendee("c")
+puts roster.attendees
+roster.add_attendee(name: "joe") do |name|
+  name.upcase
+end
+puts roster.attendees
